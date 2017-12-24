@@ -15,5 +15,10 @@ hal_client_domain(platform_app, hal_lineage_livedisplay)
 # Allow FOD HAL service to be found
 hal_client_domain(platform_app, hal_lineage_fod)
 
+
 # Allow SmartCharge HAL service to be found
 hal_client_domain(platform_app, hal_syberia_smartcharge)
+
+# Allow CPUInfo access to thermal
+allow platform_app sysfs_thermal:dir search;
+allow platform_app sysfs_thermal:file r_file_perms;
