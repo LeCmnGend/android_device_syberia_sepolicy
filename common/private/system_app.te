@@ -10,3 +10,6 @@ set_prop(system_app, wfd_legacy_video_mode_prop);
 
 # Allow SmartCharge HAL service to be found
 hal_client_domain(system_app, hal_syberia_smartcharge)
+
+# Read selinux status
+allow system_app selinuxfs:file r_file_perms;
