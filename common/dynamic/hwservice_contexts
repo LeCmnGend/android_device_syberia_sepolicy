@@ -1,4 +1,4 @@
-vendor.lineage.camera.motor::ICameraMotor            u:object_r:hal_lineage_camera_motor_hwservice:s0
+motorola.hardware.health::IMotHealth                                    u:object_r:hal_health_hwservice
 vendor.lineage.livedisplay::IAdaptiveBacklight       u:object_r:hal_lineage_livedisplay_hwservice:s0
 vendor.lineage.livedisplay::IAutoContrast            u:object_r:hal_lineage_livedisplay_hwservice:s0
 vendor.lineage.livedisplay::IColorBalance            u:object_r:hal_lineage_livedisplay_hwservice:s0
