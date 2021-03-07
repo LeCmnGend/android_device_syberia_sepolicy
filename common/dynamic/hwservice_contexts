@@ -1,4 +1,4 @@
-motorola.hardware.health::IMotHealth                                    u:object_r:hal_health_hwservice
+motorola.hardware.health::IMotHealth                                    u:object_r:hal_health_hwservice:s0
 vendor.lineage.livedisplay::IAdaptiveBacklight       u:object_r:hal_lineage_livedisplay_hwservice:s0
 vendor.lineage.livedisplay::IAutoContrast            u:object_r:hal_lineage_livedisplay_hwservice:s0
 vendor.lineage.livedisplay::IColorBalance            u:object_r:hal_lineage_livedisplay_hwservice:s0
