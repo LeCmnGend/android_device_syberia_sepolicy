@@ -25,3 +25,6 @@ hal_client_domain(platform_app, hal_syberia_smartcharge)
 # Allow CPUInfo access to thermal
 allow platform_app sysfs_thermal:dir search;
 allow platform_app sysfs_thermal:file r_file_perms;
+
+# Screenshot sound
+get_prop(platform_app, exported_audio_prop);
