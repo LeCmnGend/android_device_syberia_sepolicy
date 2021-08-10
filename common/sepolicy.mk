@@ -23,3 +23,8 @@ BOARD_SEPOLICY_DIRS += \
     device/syberia/sepolicy/common/dynamic \
     device/syberia/sepolicy/common/vendor
 endif
+
+# Include atv rules on atv product
+ifeq ($(PRODUCT_IS_ATV), true)
+include device/syberia/sepolicy/atv/sepolicy.mk
+endif
